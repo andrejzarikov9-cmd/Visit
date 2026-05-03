@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Андрей (Додоша) — Геймдизайнер</title>
+  <style>
+    /* Основные цвета: черный фон и оранжевый акцент */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000000; 
+      color: #e1e1e1;
+    }
+    
+    /* Баннер (2-ое фото) */
+    .banner {
+      width: 100%;
+      height: 250px;
+      background-image: url('image_4e989f.png'); 
+      background-size: cover;
+      background-position: center;
+    }
+
+    .main-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 2rem 2rem 2rem;
+    }
+
+    /* Структура шапки */
+    .header-section {
+      text-align: left; 
+      position: relative;
+    }
+
+    /* Аватарка (1-ое фото) */
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 5px solid #000000;
+      margin-top: -70px; /* Смещение наверх на баннер */
+      object-fit: cover;
+      background-color: #1a1d1d;
+    }
+
+    .name-title {
+      margin-top: 15px;
+    }
+
+    /* Имя | никнейм */
+    h1 {
+      color: #ff8c00; /* Насыщенный оранжевый */
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #ffb347; /* Светло-оранжевый для подзаголовков */
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #1f1f1f;
+    }
+
+    .box {
+      background: #121212;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      border-left: 4px solid #ff8c00;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .box p, .box ul {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    .box p:last-child, .box ul:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    /* Стили для ссылок в контактах */
+    .contact a {
+      color: #ffb347;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner"></div>
+
+  <div class="main-container">
+    
+    <div class="header-section">
+      <img src="image_4e98bc.png" alt="Аватарка" class="avatar">
+      <div class="name-title">
+        <h1>Андрей | Додоша</h1>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>💡 О себе</h2>
+      <p>Я - Андрей (Додоша) геймдизайнер/глава отдела баланса проекта Land of Velaris. Придумываю и разрабатываю: Расы и классы, а так же интегрирую их в проект создавая интересный и неповторимый геймплей, учусь програмированию и играю на соло гитаре.</p>
+    </div>
+
+    <div class="box">
+      <h2>🔧 Навыки</h2>
+      <p><strong>Разработка сборки:</strong></p>
+      <ul>
+        <li>Работа с j.son файлами.</li>
+        <li>Разработка и внедрение новых геймпелейных особенностей</li>
+        <li>Перевод модов</li>
+        <li>Реализация идейной части сборки</li>
+        <li>Разработка программ на Python</li>
+        <li>Диагностика конфликтов между модами, логирование и отладка</li>
+      </ul>
+      <p><strong>Личные навыки:</strong></p>
+      <ul>
+        <li>Чтение нот и наличие небольшого музыкального образования в гитарной сфере</li>
+        <li>Коммуникация с сообществом</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>🧪 Проекты</h2>
+      <ul>
+        <li><strong>Land of Velaris</strong> - разработка и реализация геймплейной части проекта, масштабирование инфраструктуры для фэнтези RPG сборки.</li>
+        <li><strong>(В планах)</strong> - собственная метал группа.</li>
+      </ul>
+    </div>
+
+    <div class="box contact">
+      <h2>📬 Контакты</h2>
+      <p><strong>Steam:</strong> <a href="https://steamcommunity.com/profiles/76561199035902547/" target="_blank">Профиль Steam</a></p>
+      <p><strong>Telegram:</strong> <a href="https://t.me/retri_safari" target="_blank">@retri_safari</a></p>
+    </div>
+
+  </div>
+
+</body>
+</html>
